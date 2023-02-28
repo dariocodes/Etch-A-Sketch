@@ -1,0 +1,27 @@
+#container {
+  width: 50vmin;
+  height: 50vmin;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.pixel {
+  flex: 1;
+}
+
+.activepixel {
+  background-color: white;
+}
